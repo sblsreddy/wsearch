@@ -8,6 +8,9 @@ import { WikipediaService } from './wikipedia.service';
 })
 
 export class AppComponent {
+// property to communication to pages-list ( child component)
+  pages = [];
+
 // attached service to app component
 constructor(private wikipedia : WikipediaService){
 
@@ -17,8 +20,9 @@ constructor(private wikipedia : WikipediaService){
   onTerm(term :string){
     //const results = this.wikipedia.search(term);
     //console.log ( 'The service results are : ' + results);
-    this.wikipedia.search(term).subscribe( (response) => {
+    this.wikipedia.search(term).subscribe( (response : any) => {
       console.log ( response);
+      this.pages = response.query.search;
     });
   }
 }

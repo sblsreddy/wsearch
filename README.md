@@ -31,12 +31,12 @@ utf8=1&
 srsearch=space
 # --------------------------# --------------------------# --------------------------
 
-# Step 8 >
-# Step 9 >
-# Step 10 >
+# Step 8 > Use the above query to make Http call to service
+# Step 9 > Handle the response 
+# Step 10 > Parent to child communication, i.e results from app component to page-list
 
 # --------------------------# --------------------------# --------------------------
-# Steps to assemble together
+# End of Assemble Steps
 # --------------------------# --------------------------# --------------------------
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 

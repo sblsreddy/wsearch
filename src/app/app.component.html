@@ -1,2 +1,2 @@
 <app-search-bar (submitted)="onTerm($event)"> Search </app-search-bar>
-<app-page-list> Pages </app-page-list>
+<app-page-list [pages] = "pages"> Pages </app-page-list> <!-- [pages] is target in page-list , "pages" is source from app component-->
