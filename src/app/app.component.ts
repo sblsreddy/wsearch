@@ -15,7 +15,10 @@ constructor(private wikipedia : WikipediaService){
 
   // Adding as part of child to parent communication
   onTerm(term :string){
-    const results = this.wikipedia.search(term);
-    console.log ( 'The service results are : ' + results);
+    //const results = this.wikipedia.search(term);
+    //console.log ( 'The service results are : ' + results);
+    this.wikipedia.search(term).subscribe( (response) => {
+      console.log ( response);
+    });
   }
 }

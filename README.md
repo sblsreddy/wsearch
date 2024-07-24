@@ -21,12 +21,15 @@ ng generate service Wikipedia
 
 # Step 6 > Communicate from Child to Parent i.e from search-bar to app component using the term
 
-# Step 7 > https:en.wikipedia.org/w/api.php?
+# Step 7 > Service component tie up with app component
+# --------------------------# --------------------------# --------------------------
+https:en.wikipedia.org/w/api.php?
 action=query&
 format=json&
 list=search&
 utf8=1&
 srsearch=space
+# --------------------------# --------------------------# --------------------------
 
 # Step 8 >
 # Step 9 >
