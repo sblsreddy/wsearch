@@ -19,8 +19,15 @@ ng generate service Wikipedia
 
 # Step 5 > To avoid default browser handling the form submit event, we need pass event as argument in onFormSubmit(event), so we can handle in the search-bar component.
 
-# Step 6 >
-# Step 7 >
+# Step 6 > Communicate from Child to Parent i.e from search-bar to app component using the term
+
+# Step 7 > https:en.wikipedia.org/w/api.php?
+action=query&
+format=json&
+list=search&
+utf8=1&
+srsearch=space
+
 # Step 8 >
 # Step 9 >
 # Step 10 >
