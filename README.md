@@ -22,6 +22,10 @@ ng generate service Wikipedia
 # Step 6 > Communicate from Child to Parent i.e from search-bar to app component using the term
 
 # Step 7 > Service component tie up with app component
+
+# Step 8 > Parent to child communication i.e appcomponent to page list
+
+# Step 9 > Render the response into a table format in pages-list
 # --------------------------# --------------------------# --------------------------
 https:en.wikipedia.org/w/api.php?
 action=query&
