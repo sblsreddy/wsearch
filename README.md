@@ -11,10 +11,14 @@ ng generate service Wikipedia
 
 # Step 1 > To display the components created page-list and search bar, we need to go to app component template and include but how do we figure out what tag to include. Go to the page-list component and see the selector and that is used in tag<app-page-list>, similarly <app-search-bar> tag from search-bar component selector. Include both the tags and make sure it is displays.
 
-# Step 2 >
-# Step 3 >
-# Step 4 >
-# Step 5 >
+# Step 2 > Add an input element in searc-bar template and capture the input using event handler
+
+# Step 3 > Enclose the input element in form and upon form submission call a method by form event
+
+# Step 4 > write the onFormSubmit() in search-bar component to handle the input event
+
+# Step 5 > To avoid default browser handling the form submit event, we need pass event as argument in onFormSubmit(event), so we can handle in the search-bar component.
+
 # Step 6 >
 # Step 7 >
 # Step 8 >
